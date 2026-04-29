@@ -10,7 +10,7 @@
       <sparkle:version>1</sparkle:version>
       <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 29 Apr 2026 22:13:07 +0000</pubDate>
+      <pubDate>Wed, 29 Apr 2026 22:20:43 +0000</pubDate>
       <description><![CDATA[## What's New in 0.8.0
 
 ### Command Expansion
@@ -29,8 +29,8 @@
 - Added update preferences for automatic checks and automatic downloads.]]></description>
       <enclosure
         url="https://github.com/ceckenrode/slashcommands-releases/releases/download/v0.8.0/SlashCommands-0.8.0.zip"
-        sparkle:edSignature="8LefS0XfY5cUgGKutosWgtlBWTNDVByynI6AI6xO4EHFWJN/FZANJI7JaP10E+LZUzidv1v/2IawgqIfnUoiAA=="
-        length="2429272"
+        sparkle:edSignature="BYwFzuhBLYL31ttYJ8zBgOg6z0eqH0ieElGq0f4sL/HhOcwnADGyhqRICC33UUfrOeHFyZ8iYRUMgfpj0QnsAg=="
+        length="2505506"
         type="application/octet-stream"
       />
     </item>
