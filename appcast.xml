@@ -1,6 +1,38 @@
-<rss version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Slash Commands</title>
+    <link>https://ceckenrode.github.io/slashcommands-releases/appcast.xml</link>
     <description>Slash Commands release feed</description>
+    <language>en</language>
+    <item>
+      <title>Slash Commands 0.8.0</title>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Wed, 29 Apr 2026 22:13:07 +0000</pubDate>
+      <description><![CDATA[## What's New in 0.8.0
+
+### Command Expansion
+- Added slash command expansion with `Tab` or `Space` in approved macOS apps.
+- Added exact trigger matching with bounded replacement so only the command token before the caret is replaced.
+- Added support for multi-line command bodies and reusable variables such as `{{ name }}`.
+
+### Setup and Settings
+- Added a first-run setup flow for required macOS permissions.
+- Added command management with autosave, duplicate trigger protection, and delete confirmation.
+- Added app targeting controls for All Apps and Selected Apps modes.
+- Added launch-at-login settings so Slash Commands can be available after sign-in.
+
+### Updates
+- Added in-app update checks and stable release delivery through Sparkle.
+- Added update preferences for automatic checks and automatic downloads.]]></description>
+      <enclosure
+        url="https://github.com/ceckenrode/slashcommands-releases/releases/download/v0.8.0/SlashCommands-0.8.0.zip"
+        sparkle:edSignature="8LefS0XfY5cUgGKutosWgtlBWTNDVByynI6AI6xO4EHFWJN/FZANJI7JaP10E+LZUzidv1v/2IawgqIfnUoiAA=="
+        length="2429272"
+        type="application/octet-stream"
+      />
+    </item>
   </channel>
 </rss>
