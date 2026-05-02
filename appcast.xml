@@ -6,31 +6,29 @@
     <description>Slash Commands release feed</description>
     <language>en</language>
     <item>
-      <title>Slash Commands 0.8.0</title>
-      <sparkle:version>1</sparkle:version>
-      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <title>Slash Commands 1.0.1</title>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 29 Apr 2026 22:20:43 +0000</pubDate>
-      <description><![CDATA[## What's New in 0.8.0
+      <pubDate>Sat, 02 May 2026 01:41:15 +0000</pubDate>
+      <description><![CDATA[## What's New in 1.0.1
 
-### Command Expansion
-- Added slash command expansion with `Tab` or `Space` in approved macOS apps.
-- Added exact trigger matching with bounded replacement so only the command token before the caret is replaced.
-- Added support for multi-line command bodies and reusable variables such as `{{ name }}`.
+### Command Editing
+- Added Markdown previews for saved command bodies, including headings, lists, code blocks, quotes, links, and checklists.
+- Added a raw source copy button so you can copy the exact saved Markdown body from preview mode.
+- Added command body history so you can restore earlier saved versions while editing.
 
-### Setup and Settings
-- Added a first-run setup flow for required macOS permissions.
-- Added command management with autosave, duplicate trigger protection, and delete confirmation.
-- Added app targeting controls for All Apps and Selected Apps modes.
-- Added launch-at-login settings so Slash Commands can be available after sign-in.
+### Settings
+- Changed app targeting to a blocklist model so commands stay available in eligible apps unless you choose to block them.
+- Improved the setup flow with clearer permission recovery steps when macOS access needs attention.
 
-### Updates
-- Added in-app update checks and stable release delivery through Sparkle.
-- Added update preferences for automatic checks and automatic downloads.]]></description>
+### Reliability
+- Fixed cases where command expansion could stall after secure input, app focus, or accessibility lookup failures.
+- Improved command body preview safety so image-style Markdown appears as text instead of loading remote images.]]></description>
       <enclosure
-        url="https://github.com/ceckenrode/slashcommands-releases/releases/download/v0.8.0/SlashCommands-0.8.0.zip"
-        sparkle:edSignature="BYwFzuhBLYL31ttYJ8zBgOg6z0eqH0ieElGq0f4sL/HhOcwnADGyhqRICC33UUfrOeHFyZ8iYRUMgfpj0QnsAg=="
-        length="2505506"
+        url="https://github.com/ceckenrode/slashcommands-releases/releases/download/v1.0.1/SlashCommands-1.0.1.zip"
+        sparkle:edSignature="55lw1pUwEv873EYusHKyeBBrc4SxPKL4qrkT5gN+j123CE3IbI15LPx1O3Rxq6KtxzrfcpnPgzg4S7eayQDiCg=="
+        length="3416631"
         type="application/octet-stream"
       />
     </item>
