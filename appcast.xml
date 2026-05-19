@@ -7,10 +7,10 @@
     <language>en</language>
     <item>
       <title>Slash Commands 1.0.2</title>
-      <sparkle:version>2</sparkle:version>
+      <sparkle:version>3</sparkle:version>
       <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Tue, 19 May 2026 01:29:19 +0000</pubDate>
+      <pubDate>Tue, 19 May 2026 02:24:13 +0000</pubDate>
       <description><![CDATA[## What's New in 1.0.2
 
 ### Bug Fixes
@@ -26,8 +26,8 @@
 - Removed inline `#if DEBUG` blocks from EventTapManager decision logic.]]></description>
       <enclosure
         url="https://github.com/ceckenrode/slashcommands-releases/releases/download/v1.0.2/SlashCommands-1.0.2.zip"
-        sparkle:edSignature="SBOt5R/EN9reIq8p84LW7oBJbxiVICY500/nNQ61iYwavgDEtYo/cQaTvKA8ip5HD1G8WOZbx/8Lk0zbBqXCBw=="
-        length="4143014"
+        sparkle:edSignature="tZf/xB3seQSbClYAwv2yajEOAE4E/T+i6hAm5GyhZjM+UITyXBnoqNdLBc4sFuY94N1onOJ2tayUKhXVTCuwBg=="
+        length="4143015"
         type="application/octet-stream"
       />
     </item>
