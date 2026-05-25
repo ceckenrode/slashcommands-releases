@@ -6,28 +6,27 @@
     <description>Slash Commands release feed</description>
     <language>en</language>
     <item>
-      <title>Slash Commands 1.0.2</title>
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <title>Slash Commands 1.0.3</title>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Tue, 19 May 2026 02:24:13 +0000</pubDate>
-      <description><![CDATA[## What's New in 1.0.2
+      <pubDate>Mon, 25 May 2026 05:11:19 +0000</pubDate>
+      <description><![CDATA[## What's New in 1.0.3
 
-### Bug Fixes
-- Fixed a bug where selecting a command in the sidebar did not update the detail pane, leaving the previous command's trigger, body, and tags visible.
+### Command Expansion
+- Restarts command expansion automatically when macOS stops listening for shortcuts while permissions are still enabled.
+- Keeps Slash Commands ready after long-running sessions where typing a slash command and pressing `Tab` could otherwise do nothing until restart.
 
-### Architecture
-- Decomposed the AppModel god class into focused sub-models (CommandManager, SettingsManager, PermissionManager, UpdateManager, DoctorManager) with dependency injection through AppContainer.
-- Decomposed RuntimeCoordinator from 1178 to 643 lines by extracting probes and matching into dedicated modules.
-- Decomposed CommandEditorView from 2399 to 715 lines by extracting policies and view models.
-- Extracted SettingsViewModel to decouple settings editing from AppModel.
-- Decoupled MainWindowScene, MenuBarExtraView, and SetupWindowPresenter from direct AppModel access.
-- Consolidated 9 runtime probe files into Runtime/Probes/ and expansion feedback helpers into UI/Expansion/.
-- Removed inline `#if DEBUG` blocks from EventTapManager decision logic.]]></description>
+### Diagnostics
+- Shows clearer runtime status when command expansion is temporarily stopped and expected to recover automatically.
+- Keeps startup failures visible as `Runtime unavailable` instead of retrying the same failed startup repeatedly.
+
+### Updates
+- Improved release packaging reliability so patch updates can be prepared and delivered more consistently.]]></description>
       <enclosure
-        url="https://github.com/ceckenrode/slashcommands-releases/releases/download/v1.0.2/SlashCommands-1.0.2.zip"
-        sparkle:edSignature="tZf/xB3seQSbClYAwv2yajEOAE4E/T+i6hAm5GyhZjM+UITyXBnoqNdLBc4sFuY94N1onOJ2tayUKhXVTCuwBg=="
-        length="4143015"
+        url="https://github.com/ceckenrode/slashcommands-releases/releases/download/v1.0.3/SlashCommands-1.0.3.zip"
+        sparkle:edSignature="3gdkWoaVrc0V7Da3QdIYl991tSUxl9tJe49BlBt30IB1DgDsV4yf58phV03Jgl6YyblzWlxHQWDE8dKhLIO3Bg=="
+        length="4136214"
         type="application/octet-stream"
       />
     </item>
